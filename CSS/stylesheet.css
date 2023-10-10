@@ -1,0 +1,204 @@
+:root {
+    --iris: #4d5ae5;
+    --navyblue: #2e2f42;
+    --ocean: #404bbf;
+    --white: #fff;
+    --slate: #434455;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
+  
+  .logo {
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+  }
+  
+  .weblogo {
+    color: var(--iris, #4d5ae5);
+  }
+  
+  .studiologo {
+    color: var(--navyblue, #2e2f42);
+  }
+  
+  .linkpage {
+    text-decoration: none;
+    color: var(--navyblue, #2e2f42);
+    font-weight: 500;
+  }
+  
+  .linkpage:hover,
+  .linkpage:focus {
+    color: var(--ocean, #404bbf);
+  }
+  
+  .link-active {
+    color: var(--ocean, #404bbf);
+  }
+  
+  .contacts {
+    color: var(--slate, #434455);
+    text-decoration: none;
+  }
+  
+  .contacts:hover,
+  .contacts:focus {
+    color: var(--ocean, #404bbf);
+  }
+  
+  .list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg-sec1 {
+    background-color: var(--navyblue, #2e2f42);
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .sec1-title {
+    color: var(--white, #fff);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+  }
+  
+  .order-button {
+    cursor: pointer;
+    color: var(--white, #fff);
+    background: var(--iris, #4d5ae5);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  .order-button:hover,
+  .order-button:focus {
+    color: var(--white, #fff);
+    background-color: var(--ocean, #05092f);
+  }
+  
+  .section2 {
+    background-color: var(--white, #fff);
+  }
+  
+  .about-title {
+    color: var(--navyblue, #2e2f42);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+  }
+  
+  .about-description {
+    color: var(--slate, #434455);
+  }
+  
+  .section3 {
+    background-color: var(--white, #fff);
+  }
+  
+  .sec-title {
+    color: var(--navyblue, #2e2f42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+  
+  .section4 {
+    background-color: var(--cloud, #f4f4fd);
+  }
+  
+  .team-members {
+    color: var(--navyblue, #2e2f42);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+  }
+  
+  .team-jobrole {
+    color: var(--slate, #434455);
+  }
+  
+  .portfolio-page {
+    background-color: var(--white, #fff);
+  }
+  
+  .filter-button {
+    cursor: pointer;
+    color: var(--iris, #4d5ae5);
+    background-color: var(--cloud, #f4f4fd);
+    text-align: center;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #e7e9fc);
+  }
+  
+  .filter-button:hover,
+  .filter-button:focus {
+    color: var(--cloud, #f4f4fd);
+    background-color: var(--ocean, #05092f);
+    border-color: var(--ocean, #05092f);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+      0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .active-filter {
+    color: var(--white, #fff);
+    background-color: var(--ocean, #05092f);
+    border-color: var(--ocean, #05092f);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+      0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-service {
+    color: var(--navyblue, #2e2f42);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+  }
+  
+  .portfolio-category {
+    color: var(--slate, #434455);
+  }
+  
+  .footer {
+    background-color: var(--navyblue, #2e2f42);
+  }
+  
+  .studiologo2 {
+    color: var(--cloud, #f4f4fd);
+  }
+  
+  .motto {
+    color: var(--cloud, #f4f4fd);
+  }
+  
